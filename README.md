@@ -9,9 +9,8 @@ This project was developed to gain experience in Dockerized applications and ana
 * Processes streaming data using Apache Kafka
 * Performs real-time analysis and feature engineering with PySpark
 * Forecasts traffic conditions five minutes into the future using:
-  * A Gated Recurrent Unit (GRU) built using PyTorch
-  * A simple Moving Average model for comparison written with PySpark
-
+  * An autoregressive Gated Recurrent Unit (GRU) built using PyTorch
+  * An autoregressive Moving Average model for prediction and comparison
 
 Visualizes both current traffic conditions and predictions in an interactive dashboard
 
